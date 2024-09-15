@@ -1,0 +1,78 @@
+html, body{
+    margin: 0;
+    overflow-x: hidden;
+}
+/* hero */
+.background {
+    width: 100%;
+    height: 115vh; 
+    background-image: url('bugatti-chiron-super-sport-300j-20210410080120.jpg'); 
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: -1;
+    opacity: 0.55;
+    display: flex;
+    position: absolute;
+    top: 0;
+}
+
+.title1 {
+    width: auto;
+    height: auto;
+    color: black;
+    font-size: 40px;
+    font-family: poppins;
+    font-weight: 700;
+    word-wrap: break-word;
+    z-index: 1;
+    opacity: 1;
+    position: relative;
+    margin-top: 20vh;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.title2 {
+    width: auto;
+    height: auto; 
+    color: black; 
+    font-size: 20px; 
+    font-family: Poppins; 
+    font-weight: 500; 
+    word-wrap: break-word;
+    margin-top : 1cm;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    text-align: center;
+}
+
+.button {
+    width: auto; 
+    height: auto; 
+    padding: 10px; 
+    background: #FF8228; 
+    border-radius: 4vw; 
+    overflow: hidden; 
+     gap: 3px;  
+    margin-left: 35vw;
+    margin-right: 35vw;
+    margin-top: 1cm;
+    
+}
+
+.button2 {
+    text-align: center; 
+    color: white; 
+    font-size: 14px; 
+    font-family: Poppins; 
+    font-weight: 700; 
+    word-wrap: break-word;
+}
+
+/* about */
+
+
